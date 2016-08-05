@@ -1,0 +1,4 @@
+name: 2b2t-rate-limiter
+version: 1.0.0
+author: Rocky Breslow
+main: me.rockybreslow.ratelimiter.RateLimiterMain
