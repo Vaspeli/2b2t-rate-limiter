@@ -16,7 +16,7 @@ public class PlayerMoveListener implements Listener {
             Vector y = event.getFrom().toVector();
 
             Vector z = x.subtract(y);
-            if(Math.abs(z.getX()) > 1 || Math.abs(z.getZ()) > 1 && z.getY() == 0) {
+            if((Math.abs(z.getX()) > 1 || Math.abs(z.getZ()) > 1) && z.getY() == 0) {
                 event.setCancelled(true);
             }
         }
